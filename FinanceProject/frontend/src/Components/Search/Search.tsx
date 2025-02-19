@@ -1,18 +1,12 @@
 import React, { SyntheticEvent, useState } from "react";
 
-interface Props {}
+interface Props {
+  search: string | undefined;
+  handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onClick: (e: SyntheticEvent) => void;
+}
 
-const Search = (props: Props) => {
-  const [search, setSearch] = useState<string>("");
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearch(e.target.value);
-  };
-
-  const onClick = (e: SyntheticEvent) => {
-    console.log("maximus");
-  };
-
+const Search = ({ search, handleChange, onClick }: Props) => {
   return (
     <div>
       <input value={search} onChange={(e) => handleChange(e)}></input>
