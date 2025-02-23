@@ -1,17 +1,19 @@
+import { execArgv } from "process";
 import React, { SyntheticEvent, useState } from "react";
 
 interface Props {
   search: string | undefined;
-  handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  onClick: (e: SyntheticEvent) => void;
+  handleSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onSearchSubmit: (e: SyntheticEvent) => void;
 }
 
-const Search = ({ search, handleChange, onClick }: Props) => {
+const Search = ({ search, handleSearchChange, onSearchSubmit }: Props) => {
   return (
-    <div>
-      <input value={search} onChange={(e) => handleChange(e)}></input>
-      <button onClick={(e) => onClick(e)}></button>
-    </div>
+    <>
+      <form onSubmit={onSearchSubmit}>
+        <input value={search} onChange={(e) => handleSearchChange(e)}></input>
+      </form>
+    </>
   );
 };
 
