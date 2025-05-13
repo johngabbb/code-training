@@ -93,35 +93,68 @@
 //    Console.WriteLine($"-- {pallet}");
 //}
 
-string[] pallets = ["B14", "A11", "B12", "A13"];
-Console.WriteLine("");
+//string[] pallets = ["B14", "A11", "B12", "A13"];
+//Console.WriteLine("");
 
-Array.Clear(pallets, 0, 2);
-Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"-- {pallet}");
-}
+//Array.Clear(pallets, 0, 2);
+//Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+//foreach (var pallet in pallets)
+//{
+//    Console.WriteLine($"-- {pallet}");
+//}
 
-Console.WriteLine("");
-Array.Resize(ref pallets, 6);
-Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
+//Console.WriteLine("");
+//Array.Resize(ref pallets, 6);
+//Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
 
-pallets[4] = "C01";
-pallets[5] = "C02";
+//pallets[4] = "C01";
+//pallets[5] = "C02";
 
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"-- {pallet}");
-}
+//foreach (var pallet in pallets)
+//{
+//    Console.WriteLine($"-- {pallet}");
+//}
 
-Console.WriteLine("");
-Array.Resize(ref pallets, 3);
-Console.WriteLine($"Resizing 3 ... count: {pallets.Length}");
+//Console.WriteLine("");
+//Array.Resize(ref pallets, 3);
+//Console.WriteLine($"Resizing 3 ... count: {pallets.Length}");
 
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"-- {pallet}");
-}
+//foreach (var pallet in pallets)
+//{
+//    Console.WriteLine($"-- {pallet}");
+//}
+
+//string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+
+//var splitString = orderStream.Split(',');
+//Array.Sort(splitString);
+//foreach (var orderId in splitString)
+//{
+//    Console.WriteLine(orderId.Length != 4 ? $"{orderId}\tERROR" : orderId);
+//}
+
+//string paymentId = "769C";
+//string payeeName = "Mr. Stephen Ortega";
+//string paymentAmount = "$5,000.00";
+
+//var formattedLine = paymentId.PadRight(6);
+//formattedLine += payeeName.PadRight(24);
+//formattedLine += paymentAmount.PadLeft(10);
+
+//Console.WriteLine(formattedLine);
 #endregion
 
+#region Sixth Chapter
+//string message = "hello there!";
+
+//int first_h = message.IndexOf('h');
+//int last_h = message.LastIndexOf('h');
+
+//Console.WriteLine($"For the message: '{message}', the first 'h' is at position {first_h} and the last 'h' is at position {last_h}.");
+
+#endregion
+
+#region Guided Project
+
+
+#endregion
