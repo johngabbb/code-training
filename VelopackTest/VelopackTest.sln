@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelopackTest", "VelopackTest\VelopackTest.csproj", "{823B7AC6-8394-4FA6-8A5B-A9BAD47F92D2}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelopackTest", "VelopackTest\VelopackTest.csproj", "{8BB5ED3B-1204-4EB0-A34D-1F81D52EC0D3}"
+>>>>>>> 50fbef3cf2fd4cbe73ee5fb2ea7c7f5eb39576e2
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{823B7AC6-8394-4FA6-8A5B-A9BAD47F92D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{823B7AC6-8394-4FA6-8A5B-A9BAD47F92D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{823B7AC6-8394-4FA6-8A5B-A9BAD47F92D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{823B7AC6-8394-4FA6-8A5B-A9BAD47F92D2}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{8BB5ED3B-1204-4EB0-A34D-1F81D52EC0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB5ED3B-1204-4EB0-A34D-1F81D52EC0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB5ED3B-1204-4EB0-A34D-1F81D52EC0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB5ED3B-1204-4EB0-A34D-1F81D52EC0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 50fbef3cf2fd4cbe73ee5fb2ea7c7f5eb39576e2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {E1C8FB80-756A-4E60-9F71-98F50DC372BE}
+=======
+		SolutionGuid = {E5E38309-A48C-4F35-B8CF-B16B7141359C}
+>>>>>>> 50fbef3cf2fd4cbe73ee5fb2ea7c7f5eb39576e2
 	EndGlobalSection
 EndGlobal
